@@ -1,9 +1,8 @@
 <?php 
 
-use Dotenv\Dotenv;
 use Model\ActiveRecord;
 require __DIR__ . '/../vendor/autoload.php';
-
+use Dotenv\Dotenv;
 // Añadir Dotenv
 $dotenv = Dotenv::createImmutable(__DIR__);
 $dotenv->safeLoad();
